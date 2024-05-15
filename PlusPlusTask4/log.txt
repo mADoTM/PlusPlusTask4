@@ -1,0 +1,28 @@
+2024-05-15 20:14:40	INFO	Received file with size 87
+2024-05-15 20:22:42	INFO	Received file with size 87
+2024-05-15 20:22:47	INFO	Received file with size 26
+2024-05-15 20:22:49	INFO	Read config line from file: 5 0 5
+2024-05-15 20:22:49	INFO	Received relation betwen vertices 1-0
+2024-05-15 20:22:49	INFO	Received relation betwen vertices 2-0
+2024-05-15 20:22:49	INFO	Received relation betwen vertices 3-2
+2024-05-15 20:22:49	INFO	Received relation betwen vertices 3-1
+2024-05-15 20:22:49	INFO	Received relation betwen vertices 4-3
+2024-05-15 20:22:49	INFO	Succsefuly assign layers
+2024-05-15 20:23:08	INFO	Read config line from file: Layer#0: Vertex ¹0
+2024-05-15 20:23:08	WARN	Entered wrong value in Config line. Stop Process
+2024-05-15 20:25:12	INFO	Received file with size 26
+2024-05-15 20:25:14	INFO	Read config line from file: 5 0 5
+2024-05-15 20:25:14	INFO	Received relation betwen vertices 1-0
+2024-05-15 20:25:14	INFO	Received relation betwen vertices 2-0
+2024-05-15 20:25:14	INFO	Received relation betwen vertices 3-2
+2024-05-15 20:25:14	INFO	Received relation betwen vertices 3-1
+2024-05-15 20:25:14	INFO	Received relation betwen vertices 4-3
+2024-05-15 20:25:14	INFO	Succsefuly assign layers
+2024-05-15 20:25:38	INFO	Read config line from file: Layer#0: Vertex ¹0
+2024-05-15 20:25:38	WARN	Entered wrong value in Config line. Stop Process
+2024-05-15 20:26:40	INFO	Received file with size 87
+2024-05-15 20:26:43	INFO	Read config line from file: "Layer#0: Vertex ¹0"
+2024-05-15 20:26:43	WARN	Entered wrong value in Config line. Stop Process. Line: "Layer#0: Vertex ¹0"
+2024-05-15 20:28:27	INFO	Received file with size 87
+2024-05-15 20:28:29	INFO	Read config line from file: "Layer#0: Vertex ¹0"
+2024-05-15 20:28:29	WARN	Entered wrong value in Config line. Stop Process. Line: "Layer#0: Vertex ¹0"

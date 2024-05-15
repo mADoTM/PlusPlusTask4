@@ -1,0 +1,4 @@
+Layer#0: Vertex ¹0
+Layer#1: Vertex ¹1, Vertex ¹2
+Layer#2: Vertex ¹3
+Layer#3: Vertex ¹4
