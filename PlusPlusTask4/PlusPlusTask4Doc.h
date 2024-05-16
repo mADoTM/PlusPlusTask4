@@ -14,10 +14,12 @@ class CPlusPlusTask4Doc : public CDocument
 protected: // создать только из сериализации
 	CPlusPlusTask4Doc() noexcept;
 	DECLARE_DYNCREATE(CPlusPlusTask4Doc)
+
 	CString _text;
 	CString _fileText;
 	CString _layersText;
 	CString _logText;
+	std::vector<CString> _layersInfo;
 
 	struct Vertex {
 		int number = -1;
@@ -52,7 +54,7 @@ public:
 	virtual void Dump(CDumpContext& dc) const;
 #endif
 protected:
-	virtual void assignLayers();
+	virtual void assignLayers(int startVertex);
 	virtual std::vector<int> splitString(const std::string & str);
 	virtual void logInfo(CString message, CString type);
 

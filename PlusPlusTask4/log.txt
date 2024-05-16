@@ -26,3 +26,269 @@
 2024-05-15 20:28:27	INFO	Received file with size 87
 2024-05-15 20:28:29	INFO	Read config line from file: "Layer#0: Vertex ¹0"
 2024-05-15 20:28:29	WARN	Entered wrong value in Config line. Stop Process. Line: "Layer#0: Vertex ¹0"
+2024-05-16 15:58:54	INFO	Received file with size 26
+2024-05-16 16:13:27	INFO	Received file with size 26
+2024-05-16 16:13:30	INFO	Read config line from file: "5 0 5"
+2024-05-16 16:13:30	INFO	Received relation betwen vertices 1-0
+2024-05-16 16:13:30	INFO	Received relation betwen vertices 2-0
+2024-05-16 16:13:30	INFO	Received relation betwen vertices 3-2
+2024-05-16 16:13:30	INFO	Received relation betwen vertices 3-1
+2024-05-16 16:13:30	INFO	Received relation betwen vertices 4-3
+2024-05-16 16:13:30	INFO	Succsefuly assign layers
+2024-05-16 18:21:38	INFO	Received file with size 26
+2024-05-16 18:21:42	INFO	Read config line from file: "5 0 5"
+2024-05-16 18:21:42	INFO	Received relation betwen vertices 1-0
+2024-05-16 18:21:42	INFO	Received relation betwen vertices 2-0
+2024-05-16 18:21:42	INFO	Received relation betwen vertices 3-2
+2024-05-16 18:21:42	INFO	Received relation betwen vertices 3-1
+2024-05-16 18:21:42	INFO	Received relation betwen vertices 4-3
+2024-05-16 18:21:42	INFO	Succsefuly assign layers
+2024-05-16 18:25:29	INFO	Received file with size 26
+2024-05-16 18:25:33	INFO	Read config line from file: "5 1 5"
+2024-05-16 18:25:33	INFO	Received relation betwen vertices 1-0
+2024-05-16 18:25:33	INFO	Received relation betwen vertices 2-0
+2024-05-16 18:25:33	INFO	Received relation betwen vertices 3-2
+2024-05-16 18:25:33	INFO	Received relation betwen vertices 3-1
+2024-05-16 18:25:33	INFO	Received relation betwen vertices 4-3
+2024-05-16 18:25:33	INFO	Succsefuly assign layers
+2024-05-16 18:27:44	INFO	Received file with size 26
+2024-05-16 18:27:46	INFO	Read config line from file: "5 0 5"
+2024-05-16 18:27:46	INFO	Received relation betwen vertices 1-0
+2024-05-16 18:27:46	INFO	Received relation betwen vertices 2-0
+2024-05-16 18:27:46	INFO	Received relation betwen vertices 3-2
+2024-05-16 18:27:46	INFO	Received relation betwen vertices 3-1
+2024-05-16 18:27:46	INFO	Received relation betwen vertices 4-3
+2024-05-16 18:27:46	INFO	Assigned layer 0 for verice - 0
+2024-05-16 18:27:46	INFO	Assigned layer 1 for verice - 1
+2024-05-16 18:27:46	INFO	Assigned layer 1 for verice - 2
+2024-05-16 18:27:46	INFO	Assigned layer 2 for verice - 3
+2024-05-16 18:27:46	INFO	Assigned layer 3 for verice - 4
+2024-05-16 18:27:46	INFO	Succsefuly assign layers
+2024-05-16 18:41:28	INFO	Received file with size 26
+2024-05-16 18:46:44	INFO	Received file with size 26
+2024-05-16 18:46:51	INFO	Read config line from file: "5 0 5"
+2024-05-16 18:46:51	INFO	Received relation betwen vertices 1-0
+2024-05-16 18:46:51	INFO	Received relation betwen vertices 2-0
+2024-05-16 18:46:51	INFO	Received relation betwen vertices 3-2
+2024-05-16 18:46:51	INFO	Received relation betwen vertices 3-1
+2024-05-16 18:46:51	INFO	Received relation betwen vertices 4-3
+2024-05-16 18:46:51	INFO	Assigned layer 0 for verice - 0
+2024-05-16 18:46:51	INFO	Assigned layer 1 for verice - 1
+2024-05-16 18:46:51	INFO	Assigned layer 1 for verice - 2
+2024-05-16 18:46:51	INFO	Assigned layer 2 for verice - 3
+2024-05-16 18:46:51	INFO	Assigned layer 3 for verice - 4
+2024-05-16 18:46:51	INFO	Succsefuly assign layers
+2024-05-16 18:47:04	INFO	Read config line from file: "Layer#0: Vertex ¹0"
+2024-05-16 18:47:04	WARN	Entered wrong value in Config line. Stop Process. Line: "Layer#0: Vertex ¹0"
+2024-05-16 19:42:09	INFO	Received file with size 26
+2024-05-16 19:42:16	INFO	Read config line from file: "5 0 5"
+2024-05-16 19:42:16	INFO	Received relation betwen vertices 1-0
+2024-05-16 19:42:16	INFO	Received relation betwen vertices 2-0
+2024-05-16 19:42:16	INFO	Received relation betwen vertices 3-2
+2024-05-16 19:42:16	INFO	Received relation betwen vertices 3-1
+2024-05-16 19:42:16	INFO	Received relation betwen vertices 4-3
+2024-05-16 19:42:16	INFO	Assigned layer 0 for verice - 0
+2024-05-16 19:42:16	INFO	Assigned layer 1 for verice - 1
+2024-05-16 19:42:16	INFO	Assigned layer 1 for verice - 2
+2024-05-16 19:42:16	INFO	Assigned layer 2 for verice - 3
+2024-05-16 19:42:16	INFO	Assigned layer 3 for verice - 4
+2024-05-16 19:42:16	INFO	Succsefuly assign layers
+2024-05-16 19:42:24	INFO	Read config line from file: "5 0 5"
+2024-05-16 19:42:24	INFO	Received relation betwen vertices 1-0
+2024-05-16 19:42:24	INFO	Received relation betwen vertices 2-0
+2024-05-16 19:42:24	INFO	Received relation betwen vertices 3-2
+2024-05-16 19:42:24	INFO	Received relation betwen vertices 3-1
+2024-05-16 19:42:24	INFO	Received relation betwen vertices 4-3
+2024-05-16 19:42:24	INFO	Assigned layer 0 for verice - 1
+2024-05-16 19:42:24	INFO	Assigned layer 1 for verice - 0
+2024-05-16 19:42:24	INFO	Assigned layer 1 for verice - 3
+2024-05-16 19:42:24	INFO	Assigned layer 2 for verice - 2
+2024-05-16 19:42:24	INFO	Assigned layer 2 for verice - 4
+2024-05-16 19:42:24	INFO	Succsefuly assign layers
+2024-05-16 19:43:41	INFO	Received file with size 26
+2024-05-16 19:43:47	INFO	Read config line from file: "5 0 5"
+2024-05-16 19:43:47	INFO	Received relation betwen vertices 1-0
+2024-05-16 19:43:47	INFO	Received relation betwen vertices 2-0
+2024-05-16 19:43:47	INFO	Received relation betwen vertices 3-2
+2024-05-16 19:43:47	INFO	Received relation betwen vertices 3-1
+2024-05-16 19:43:47	INFO	Received relation betwen vertices 4-3
+2024-05-16 19:43:47	INFO	Assigned layer 0 for verice - 0
+2024-05-16 19:43:47	INFO	Assigned layer 1 for verice - 1
+2024-05-16 19:43:47	INFO	Assigned layer 1 for verice - 2
+2024-05-16 19:43:47	INFO	Assigned layer 2 for verice - 3
+2024-05-16 19:43:47	INFO	Assigned layer 3 for verice - 4
+2024-05-16 19:43:47	INFO	Succsefuly assign layers
+2024-05-16 19:43:57	INFO	Read config line from file: "Layer#0: Vertex ¹0"
+2024-05-16 19:43:57	WARN	Entered wrong value in Config line. Stop Process. Line: "Layer#0: Vertex ¹0"
+2024-05-16 19:44:11	INFO	Read config line from file: "Layer#0: Vertex ¹0"
+2024-05-16 19:44:11	WARN	Entered wrong value in Config line. Stop Process. Line: "Layer#0: Vertex ¹0"
+2024-05-16 19:44:18	INFO	Read config line from file: "Layer#0: Vertex ¹0"
+2024-05-16 19:44:18	WARN	Entered wrong value in Config line. Stop Process. Line: "Layer#0: Vertex ¹0"
+2024-05-16 19:44:34	INFO	Read config line from file: "5 0 5"
+2024-05-16 19:44:34	INFO	Received relation betwen vertices 1-0
+2024-05-16 19:44:34	INFO	Received relation betwen vertices 2-0
+2024-05-16 19:44:34	INFO	Received relation betwen vertices 3-2
+2024-05-16 19:44:34	INFO	Received relation betwen vertices 3-1
+2024-05-16 19:44:34	INFO	Received relation betwen vertices 4-3
+2024-05-16 19:44:34	INFO	Assigned layer 0 for verice - 1
+2024-05-16 19:44:34	INFO	Assigned layer 1 for verice - 0
+2024-05-16 19:44:34	INFO	Assigned layer 1 for verice - 3
+2024-05-16 19:44:34	INFO	Assigned layer 2 for verice - 2
+2024-05-16 19:44:34	INFO	Assigned layer 2 for verice - 4
+2024-05-16 19:44:34	INFO	Succsefuly assign layers
+2024-05-16 19:51:08	INFO	Received file with size 26
+2024-05-16 19:51:13	INFO	Read config line from file: "5 0 5"
+2024-05-16 19:51:13	INFO	Received relation betwen vertices 1-0
+2024-05-16 19:51:13	INFO	Received relation betwen vertices 2-0
+2024-05-16 19:51:13	INFO	Received relation betwen vertices 3-2
+2024-05-16 19:51:13	INFO	Received relation betwen vertices 3-1
+2024-05-16 19:51:13	INFO	Received relation betwen vertices 4-3
+2024-05-16 19:51:13	INFO	Assigned layer 0 for verice - 0
+2024-05-16 19:51:13	INFO	Assigned layer 1 for verice - 1
+2024-05-16 19:51:13	INFO	Assigned layer 1 for verice - 2
+2024-05-16 19:51:13	INFO	Assigned layer 2 for verice - 3
+2024-05-16 19:51:13	INFO	Assigned layer 3 for verice - 4
+2024-05-16 23:01:27	INFO	Received file with size 24
+2024-05-16 23:01:31	INFO	Read config line from file: "5 5"
+2024-05-16 23:01:31	INFO	Received relation betwen vertices 1-0
+2024-05-16 23:01:31	INFO	Received relation betwen vertices 2-0
+2024-05-16 23:01:31	INFO	Received relation betwen vertices 3-2
+2024-05-16 23:01:31	INFO	Received relation betwen vertices 3-1
+2024-05-16 23:01:31	INFO	Received relation betwen vertices 4-3
+2024-05-16 23:01:31	INFO	Assigned layer 0 for verice - 0
+2024-05-16 23:01:31	INFO	Assigned layer 1 for verice - 1
+2024-05-16 23:01:31	INFO	Assigned layer 1 for verice - 2
+2024-05-16 23:01:31	INFO	Assigned layer 2 for verice - 3
+2024-05-16 23:01:31	INFO	Assigned layer 3 for verice - 4
+2024-05-16 23:02:35	INFO	Received file with size 24
+2024-05-16 23:02:41	INFO	Read config line from file: "5 5"
+2024-05-16 23:02:41	INFO	Received relation betwen vertices 1-0
+2024-05-16 23:02:41	INFO	Received relation betwen vertices 2-0
+2024-05-16 23:02:41	INFO	Received relation betwen vertices 3-2
+2024-05-16 23:02:41	INFO	Received relation betwen vertices 3-1
+2024-05-16 23:02:41	INFO	Received relation betwen vertices 4-3
+2024-05-16 23:02:41	INFO	Assigned layer 0 for verice - 0
+2024-05-16 23:02:41	INFO	Assigned layer 1 for verice - 1
+2024-05-16 23:02:41	INFO	Assigned layer 1 for verice - 2
+2024-05-16 23:02:41	INFO	Assigned layer 2 for verice - 3
+2024-05-16 23:02:41	INFO	Assigned layer 3 for verice - 4
+2024-05-16 23:03:11	INFO	Received file with size 24
+2024-05-16 23:03:15	INFO	Read config line from file: "5 5"
+2024-05-16 23:03:15	INFO	Received relation betwen vertices 1-0
+2024-05-16 23:03:15	INFO	Received relation betwen vertices 2-0
+2024-05-16 23:03:15	INFO	Received relation betwen vertices 3-2
+2024-05-16 23:03:15	INFO	Received relation betwen vertices 3-1
+2024-05-16 23:03:15	INFO	Received relation betwen vertices 4-3
+2024-05-16 23:03:15	INFO	Assigned layer 0 for verice - 0
+2024-05-16 23:03:15	INFO	Assigned layer 1 for verice - 1
+2024-05-16 23:03:15	INFO	Assigned layer 1 for verice - 2
+2024-05-16 23:03:15	INFO	Assigned layer 2 for verice - 3
+2024-05-16 23:03:15	INFO	Assigned layer 3 for verice - 4
+2024-05-16 23:03:15	INFO	Succsefuly assign layers
+2024-05-16 23:04:25	INFO	Received file with size 24
+2024-05-16 23:04:33	INFO	Read config line from file: "5 5"
+2024-05-16 23:04:33	INFO	Received relation betwen vertices 1-0
+2024-05-16 23:04:33	INFO	Received relation betwen vertices 2-0
+2024-05-16 23:04:33	INFO	Received relation betwen vertices 3-2
+2024-05-16 23:04:33	INFO	Received relation betwen vertices 3-1
+2024-05-16 23:04:33	INFO	Received relation betwen vertices 4-3
+2024-05-16 23:04:33	INFO	Assigned layer 0 for verice - 0
+2024-05-16 23:04:33	INFO	Assigned layer 1 for verice - 1
+2024-05-16 23:04:33	INFO	Assigned layer 1 for verice - 2
+2024-05-16 23:04:33	INFO	Assigned layer 2 for verice - 3
+2024-05-16 23:04:33	INFO	Assigned layer 3 for verice - 4
+2024-05-16 23:04:33	INFO	Succsefuly assign layers
+2024-05-16 23:04:59	INFO	Received file with size 24
+2024-05-16 23:05:07	INFO	Read config line from file: "5 5"
+2024-05-16 23:05:07	INFO	Received relation betwen vertices 1-0
+2024-05-16 23:05:07	INFO	Received relation betwen vertices 2-0
+2024-05-16 23:05:07	INFO	Received relation betwen vertices 3-2
+2024-05-16 23:05:07	INFO	Received relation betwen vertices 3-1
+2024-05-16 23:05:07	INFO	Received relation betwen vertices 4-3
+2024-05-16 23:05:07	INFO	Assigned layer 0 for verice - 0
+2024-05-16 23:05:07	INFO	Assigned layer 1 for verice - 1
+2024-05-16 23:05:07	INFO	Assigned layer 1 for verice - 2
+2024-05-16 23:05:07	INFO	Assigned layer 2 for verice - 3
+2024-05-16 23:05:07	INFO	Assigned layer 3 for verice - 4
+2024-05-16 23:05:07	INFO	Succsefuly assign layers
+2024-05-16 23:05:47	INFO	Received file with size 24
+2024-05-16 23:06:06	INFO	Read config line from file: "5 5"
+2024-05-16 23:06:06	INFO	Received relation betwen vertices 1-0
+2024-05-16 23:06:06	INFO	Received relation betwen vertices 2-0
+2024-05-16 23:06:06	INFO	Received relation betwen vertices 3-2
+2024-05-16 23:06:06	INFO	Received relation betwen vertices 3-1
+2024-05-16 23:06:06	INFO	Received relation betwen vertices 4-3
+2024-05-16 23:06:06	INFO	Assigned layer 0 for verice - 0
+2024-05-16 23:06:06	INFO	Assigned layer 1 for verice - 1
+2024-05-16 23:06:06	INFO	Assigned layer 1 for verice - 2
+2024-05-16 23:06:06	INFO	Assigned layer 2 for verice - 3
+2024-05-16 23:06:06	INFO	Assigned layer 3 for verice - 4
+2024-05-16 23:06:06	INFO	Succsefuly assign layers
+2024-05-16 23:06:46	INFO	Received file with size 28
+2024-05-16 23:06:50	INFO	Read config line from file: "6 5"
+2024-05-16 23:06:50	INFO	Received relation betwen vertices 1-0
+2024-05-16 23:06:50	INFO	Received relation betwen vertices 2-0
+2024-05-16 23:06:50	INFO	Received relation betwen vertices 2-1
+2024-05-16 23:06:50	INFO	Received relation betwen vertices 3-2
+2024-05-16 23:06:50	INFO	Received relation betwen vertices 3-1
+2024-05-16 23:06:50	INFO	Received relation betwen vertices 4-3
+2024-05-16 23:06:50	INFO	Assigned layer 0 for verice - 0
+2024-05-16 23:06:50	INFO	Assigned layer 1 for verice - 1
+2024-05-16 23:06:50	INFO	Assigned layer 1 for verice - 2
+2024-05-16 23:06:50	INFO	Assigned layer 2 for verice - 3
+2024-05-16 23:06:50	INFO	Assigned layer 3 for verice - 4
+2024-05-16 23:06:50	INFO	Succsefuly assign layers
+2024-05-16 23:07:12	INFO	Read config line from file: "6 5"
+2024-05-16 23:07:12	INFO	Received relation betwen vertices 1-0
+2024-05-16 23:07:12	INFO	Received relation betwen vertices 2-0
+2024-05-16 23:07:12	INFO	Received relation betwen vertices 2-1
+2024-05-16 23:07:12	INFO	Received relation betwen vertices 3-2
+2024-05-16 23:07:12	INFO	Received relation betwen vertices 3-1
+2024-05-16 23:07:12	INFO	Received relation betwen vertices 4-3
+2024-05-16 23:07:12	INFO	Assigned layer 0 for verice - 0
+2024-05-16 23:07:12	INFO	Assigned layer 1 for verice - 1
+2024-05-16 23:07:12	INFO	Assigned layer 1 for verice - 2
+2024-05-16 23:07:12	INFO	Assigned layer 2 for verice - 3
+2024-05-16 23:07:12	INFO	Assigned layer 3 for verice - 4
+2024-05-16 23:07:12	INFO	Succsefuly assign layers
+2024-05-16 23:07:55	INFO	Received file with size 28
+2024-05-16 23:08:04	INFO	Read config line from file: "6 5"
+2024-05-16 23:08:04	INFO	Received relation betwen vertices 1-0
+2024-05-16 23:08:04	INFO	Received relation betwen vertices 2-0
+2024-05-16 23:08:04	INFO	Received relation betwen vertices 2-1
+2024-05-16 23:08:04	INFO	Received relation betwen vertices 3-2
+2024-05-16 23:08:04	INFO	Received relation betwen vertices 3-1
+2024-05-16 23:08:04	INFO	Received relation betwen vertices 4-3
+2024-05-16 23:08:04	INFO	Assigned layer 0 for verice - 0
+2024-05-16 23:08:04	INFO	Assigned layer 1 for verice - 1
+2024-05-16 23:08:04	INFO	Assigned layer 1 for verice - 2
+2024-05-16 23:08:04	INFO	Assigned layer 2 for verice - 3
+2024-05-16 23:08:04	INFO	Assigned layer 3 for verice - 4
+2024-05-16 23:08:04	INFO	Succsefuly assign layers
+2024-05-16 23:08:24	INFO	Read config line from file: "2 2"
+2024-05-16 23:09:45	INFO	Received file with size 28
+2024-05-16 23:09:52	INFO	Read config line from file: "6 5"
+2024-05-16 23:09:52	INFO	Received relation betwen vertices 1-0
+2024-05-16 23:09:52	INFO	Received relation betwen vertices 2-0
+2024-05-16 23:09:52	INFO	Received relation betwen vertices 2-1
+2024-05-16 23:09:52	INFO	Received relation betwen vertices 3-2
+2024-05-16 23:09:52	INFO	Received relation betwen vertices 3-1
+2024-05-16 23:09:52	INFO	Received relation betwen vertices 4-3
+2024-05-16 23:09:52	INFO	Assigned layer 0 for verice - 0
+2024-05-16 23:09:52	INFO	Assigned layer 1 for verice - 1
+2024-05-16 23:09:52	INFO	Assigned layer 1 for verice - 2
+2024-05-16 23:09:52	INFO	Assigned layer 2 for verice - 3
+2024-05-16 23:09:52	INFO	Assigned layer 3 for verice - 4
+2024-05-16 23:09:52	INFO	Succsefuly assign layers
+2024-05-16 23:10:04	INFO	Read config line from file: "2 2"
+2024-05-16 23:10:04	INFO	Received relation betwen vertices 2-1
+2024-05-16 23:10:04	INFO	Received relation betwen vertices 1-2
+2024-05-16 23:10:04	INFO	Assigned layer 0 for verice - 1
+2024-05-16 23:10:04	INFO	Assigned layer 1 for verice - 2
+2024-05-16 23:10:04	INFO	Succsefuly assign layers
+2024-05-16 23:10:12	INFO	Read config line from file: "2 2"
+2024-05-16 23:10:12	INFO	Received relation betwen vertices 2-1
+2024-05-16 23:10:12	INFO	Received relation betwen vertices 1-2
+2024-05-16 23:10:12	INFO	Assigned layer 0 for verice - 2
+2024-05-16 23:10:12	INFO	Assigned layer 1 for verice - 1
+2024-05-16 23:10:12	INFO	Succsefuly assign layers

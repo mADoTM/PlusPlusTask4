@@ -23,6 +23,7 @@
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
+#include "InputStartVertexDialog.h"
 
 // CPlusPlusTask4Doc
 
@@ -154,25 +155,43 @@ void CPlusPlusTask4Doc::Dump(CDumpContext& dc) const
 
 void CPlusPlusTask4Doc::OnAssignLayersClick()
 {
+	InputStartVertexDialog m_dlg;
+	int response = m_dlg.DoModal();
+	int startVertex;
+
 	if (_fileText.GetLength() > 0)
 	{
 		try 
 		{
-			assignLayers();
+			if (response == IDOK)
+			{
+				startVertex = atoi(m_dlg.input.GetBuffer(0));
+			}
+
+			assignLayers(startVertex);
 			_logText.Format("Succsefuly assign layers");
 			logInfo(_logText, "INFO");
-			auto pos = theApp.GetFirstDocTemplatePosition();
-			auto pDocTemplate = theApp.GetNextDocTemplate(pos);
-			if (pDocTemplate)
+			for (int i = 0; i < _layersInfo.size(); i++)
 			{
-				auto doc = dynamic_cast<CPlusPlusTask4Doc*>(pDocTemplate->CreateNewDocument());
-				doc->SetText(_layersText);
-				auto chld = pDocTemplate->CreateNewFrame(
-					doc,
-					dynamic_cast<CFrameWnd*>(theApp.GetMainWnd())
-				);
-				chld->ShowWindow(true);
+				auto layers_text = _layersInfo[i];
+				auto pos = theApp.GetFirstDocTemplatePosition();
+				auto pDocTemplate = theApp.GetNextDocTemplate(pos);
+				if (pDocTemplate)
+				{
+					auto doc = dynamic_cast<CPlusPlusTask4Doc*>(pDocTemplate->CreateNewDocument());
+					CString buf;
+					buf.Format("Layer %d", (i + 1));
+					doc->SetTitle(buf);
+					doc->SetText(layers_text);
+					auto chld = pDocTemplate->CreateNewFrame(
+						doc,
+						dynamic_cast<CFrameWnd*>(theApp.GetMainWnd())
+					);
+					chld->ShowWindow(true);
+				}
 			}
+			
+			_layersInfo.clear();
 		}
 		catch (const std::exception& e) 
 		{
@@ -197,7 +216,7 @@ void CPlusPlusTask4Doc::SetText(CString text)
 	_fileText = text;
 }
 
-void CPlusPlusTask4Doc::assignLayers() 
+void CPlusPlusTask4Doc::assignLayers(int startVertex) 
 {
 	CString delimiter = _T("\n");
 	int position = 0;
@@ -207,7 +226,7 @@ void CPlusPlusTask4Doc::assignLayers()
 	logInfo(_logText, "INFO");
 
 	auto config = splitString((LPCTSTR)token);
-	if (config.size() != 3)
+	if (config.size() != 2)
 	{
 		_logText.Format("Entered wrong value in Config line. Stop Process. Line: \"%s\"", token);
 		logInfo(_logText, "WARN");
@@ -216,26 +235,16 @@ void CPlusPlusTask4Doc::assignLayers()
 		
 
 	const int count_connections = config[0];
-	const int start_vertex = config[1];
-	const int count_vertices = config[2];
+	const int count_vertices = config[1];
 	
-	if (count_connections < 0 || start_vertex < 0 || count_vertices < 0)
+	if (count_connections < 0 || startVertex < 0 || count_vertices < 0)
 	{
 		_logText.Format("Found negative number in Config line. Stop Process");
 		logInfo(_logText, "WARN");
 		throw std::invalid_argument("Found negative number in Config line. Stop Process");
 	}
-		
 
-	if (count_vertices < 1 || count_connections < count_vertices)
-	{
-		_logText.Format("Entered wrong relation between Vertices and Connection. Stop Process");
-		logInfo(_logText, "WARN");
-		throw std::invalid_argument("Entered wrong relation between Vertices and Connection. Stop Process");
-	}
-		
-
-	Vertex* graph = new Vertex[count_vertices];
+	Vertex* graph = new Vertex[count_vertices + 1];
 
 	for (int i = 0; i < count_connections; i++)
 	{
@@ -278,7 +287,7 @@ void CPlusPlusTask4Doc::assignLayers()
 
 	std::queue<Vertex> currentLayerQueue;
 	std::queue<Vertex> nextLayerQueue;
-	currentLayerQueue.push(graph[start_vertex]);
+	currentLayerQueue.push(graph[startVertex]);
 	int layer = 0;
 
 	std::vector<std::vector<Vertex>> assignmentLayersVerteces;
@@ -290,6 +299,9 @@ void CPlusPlusTask4Doc::assignLayers()
 		if (graph[vertex.number].layer == -1)
 		{
 			graph[vertex.number].layer = layer;
+
+			_logText.Format("Assigned layer %d for verice - %d", layer, vertex.number);
+			logInfo(_logText, "INFO");
 
 			if (assignmentLayersVerteces.size() == layer)
 			{
@@ -320,27 +332,49 @@ void CPlusPlusTask4Doc::assignLayers()
 		}
 	}
 
-	for (int i = 0; i < layer; i++)
+	for (int i = 1; i < assignmentLayersVerteces.size(); i++)
 	{
-		if (assignmentLayersVerteces[i].size() > 0)
+		int countConnections = 0;
+		int countVertices = assignmentLayersVerteces[i].size();
+		CString temp_layer_info;
+		CString buf;
+
+		auto verticesOnLayer = assignmentLayersVerteces[i];
+		for (int j = 0; j < verticesOnLayer.size(); j++)
 		{
-			CString tmp;
-			tmp.Format(_T("Layer#%d"), i);
-			_layersText.Append(tmp);
-			_layersText.Append(": ");
+			auto vertex = verticesOnLayer[j];
+			int countVertexConnections = 0;
 
-			for (int j = 0; j < assignmentLayersVerteces[i].size(); j++)
+			for (int k = 0; k < vertex.adjacentVertices.size(); k++)
 			{
-				CString tmpInner;
-				tmpInner.Format(_T("Vertex №%d"), assignmentLayersVerteces[i][j].number);
-				_layersText.Append(tmpInner);
-				if (j < assignmentLayersVerteces[i].size() - 1)
-					_layersText.Append(", ");
-			}
-			_layersText.Append("\n");
-		}
-	}
+				auto connectedVertexNumber = vertex.adjacentVertices[k];
+				auto connectedVertexLayer = graph[connectedVertexNumber].layer;
 
+				if (connectedVertexLayer == vertex.layer)
+				{
+					countVertexConnections++;
+					buf.Format("%d %d", vertex.number, connectedVertexNumber);
+					temp_layer_info.Append(buf);
+					temp_layer_info.Append("\n");
+				}
+			}
+
+			if (countVertexConnections == 0)
+			{
+				buf.Format("%d", vertex.number);
+				temp_layer_info.Append(buf);
+				temp_layer_info.Append("\n");
+				countVertexConnections++;
+			}
+
+			countConnections += countVertexConnections;
+		}
+
+		buf.Format("%d %d", countConnections, countVertices);
+		buf.Append("\n");
+		buf.Append(temp_layer_info);
+		_layersInfo.push_back(buf);
+	}
 }
 
 std::vector<int> CPlusPlusTask4Doc::splitString(const std::string& str) {
